@@ -1,0 +1,37 @@
+body {
+    background-color: #222;
+}
+
+#carousel {
+    border: 5px solid #555;
+    width: 900px;
+    height: 800px;
+    color: white;
+    font-size: 50px;
+    position: relative;
+}
+#carousel h4 {
+    margin: 5px;
+    text-align: center;
+}
+#carouselSlides {
+    width: 800px;
+    height: 600px;
+    margin: 10px auto 10px auto;
+}
+#carouselIndicators {
+    display: inline-block;
+    position: absolute;
+    left: 368px;
+}
+#carousel .play {
+    margin-left: 45px;
+}
+.prev {
+    position: absolute;
+    left: 250px;
+}
+.next {
+    position: absolute;
+    right: 250px;
+}
